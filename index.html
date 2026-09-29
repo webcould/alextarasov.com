@@ -1,9 +1,67 @@
+<!doctype html>
+<html lang="en">
 <head>
-<title>Alex Tarasov welcomes you</title>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1b221d">
+  <meta name="description" content="Alexander Tarasov: software engineer in Berlin, traveller, aviation enthusiast and Toffee's human.">
+  <title>Alexander Tarasov | Berlin</title>
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
-Hi, thanks a lot for visiting my website.<br>
-As you may notice it's not complete at the moment, please check it out another time.</br></br>
-
-Alex
+  <div class="shell">
+    <header class="masthead" data-site-header></header>
+    <main class="page-main">
+      <section class="hero">
+        <div>
+          <span class="eyebrow">Welcome to my homepage</span>
+          <h1 class="sr-only">Alexander Tarasov</h1>
+          <div class="terminal-window" aria-hidden="true">
+            <div class="terminal-titlebar"><span class="terminal-controls"><i></i><i></i><i></i></span><span>alex@berlin - zsh</span><span>⌘ 80 × 12</span></div>
+            <div class="terminal-body terminal-sequence">
+              <div data-terminal-row><span class="terminal-command">➜ ~ % </span><span data-type-text="whoami">whoami</span></div>
+              <div class="terminal-output" data-terminal-row data-type-text="Alexander Tarasov">Alexander Tarasov</div>
+              <div data-terminal-row><span class="terminal-command">➜ ~ % </span><span data-type-text="whereami">whereami</span></div>
+              <div class="terminal-output" data-terminal-row data-type-text="Berlin, Germany">Berlin, Germany</div>
+              <div data-terminal-row><span class="terminal-command">➜ ~ % </span><span data-type-text="interests">interests</span></div>
+              <div class="terminal-output" data-terminal-row data-type-text="banks · transport · coffee · food · travel · Toffee">banks · transport · coffee · food · travel · Toffee</div>
+              <div data-terminal-row><span class="terminal-command">➜ ~ % </span><span class="terminal-cursor" data-type-text=""></span></div>
+            </div>
+          </div>
+          <p class="sr-only">Alexander Tarasov. Software engineer based in Berlin. Interested in banking, aviation, travel and spending time with Toffee.</p>
+          <p class="lead"><strong>Software engineer in Berlin.</strong><br>I build backend systems and spend the rest of my time travelling with my wife, looking up at planes, enjoying good food and coffee, cooking, and hanging out with Toffee 🐾.</p>
+        </div>
+        <aside class="hero-side">
+          <svg class="planet" viewBox="0 0 220 220" role="img" aria-labelledby="planet-title">
+            <title id="planet-title">Illustrated planet Earth</title>
+            <defs>
+              <radialGradient id="earth" cx="32%" cy="26%" r="80%"><stop offset="0" stop-color="#628b89"/><stop offset=".64" stop-color="#376568"/><stop offset="1" stop-color="#29484b"/></radialGradient>
+              <clipPath id="earth-clip"><circle cx="110" cy="110" r="76"/></clipPath>
+            </defs>
+            <circle cx="110" cy="110" r="76" fill="url(#earth)" stroke="#8ba89c" stroke-width="1.3"/>
+            <g clip-path="url(#earth-clip)" fill="#a9c58c">
+              <path d="M46 72l8-17 17-9 13 5 8 13-5 9-10 2-4 11-12 7-12-4-8 8-9-4 4-9zM77 92l12-8 14 2 6 9-6 9 4 11-8 14-5 17-9 12-8-8 2-15-8-10 2-14-8-9zM112 66l10-8 9 3 5 8-7 5-10-2zM124 82l10-9 14 3 7 9 13 1 6 9-10 9-11-4-8 6-7-3-7 8-9-8 5-10-8-4zM132 104l14-6 13 6 11 1 5 11-7 7-4 16-10 12-12-4-7-11-10-5 3-12-8-7zM169 72l13-6 10 6-3 10-9 4-11-4z"/>
+            </g>
+            <circle cx="110" cy="110" r="76" fill="none" stroke="#d7e0cc" stroke-opacity=".18" stroke-width="5"/>
+          </svg>
+          <div class="coordinates"><strong>Berlin, Germany</strong>52°31′ N &nbsp; 13°24′ E</div>
+        </aside>
+      </section>
+      <nav class="home-links" aria-label="Explore the site">
+        <a class="home-card" href="about.html"><span class="number">01</span><svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 20c.4-4 2.7-6 6.5-6s6.1 2 6.5 6M4 7.5l1.8-2 1.5 1.7m11.2.3 1.5-2 1.8 2"/></svg><h2>About</h2><p>Me, Toffee and the in-between.</p></a>
+        <a class="home-card" href="engineering.html"><span class="number">02</span><svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-2-15-4 18"/></svg><h2>Engineering</h2><p>Systems and things I've built.</p></a>
+        <a class="home-card" href="writing.html"><span class="number">03</span><svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4l11-11a2.8 2.8 0 0 0-4-4L4 16v4Zm9-12 4 4M13 20h7"/></svg><h2>Writing</h2><p>Short thoughts and small stories</p></a>
+        <a class="home-card" href="travel.html"><span class="number">04</span><svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3.5 9h17M4 15h16M12 3c2.2 2.5 3.2 5.5 3.2 9S14.2 18.5 12 21c-2.2-2.5-3.2-5.5-3.2-9S9.8 5.5 12 3Z"/></svg><h2>Travel</h2><p>Places, photos and field notes.</p></a>
+        <a class="home-card" href="now.html"><span class="number">05</span><svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg><h2>Now</h2><p>A snapshot of the present.</p></a>
+        <a class="home-card" href="contact.html"><span class="number">06</span><svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg><h2>Contact</h2><p>Say hello, or share a route.</p></a>
+      </nav>
+      <aside class="home-note">
+        <img class="dog-icon" src="assets/images/toffee-cocker.png" alt="Copper illustration of Toffee, a cocker spaniel">
+        <p><strong>Toffee</strong><br>Our cocker spaniel, happiest on a walk with the whole family and always ready to lead us home the scenic way.</p>
+        <img class="toffee-photo" src="assets/images/toffee-photo.png" alt="Toffee, a golden cocker spaniel sitting in his chair">
+      </aside>
+    </main>
+    <footer class="footer" data-site-footer></footer>
+  </div>
+  <script src="assets/js/site.js" defer></script>
 </body>
+</html>
